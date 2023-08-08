@@ -11,8 +11,8 @@ export default function Works() {
             </div>
             <div className="works-links-container">
                 {studyData.map((data, index) => (
-                    <div key={index}>
-                        <h1>{data.title}</h1>
+                    <div className="list-projects" key={index}>
+                        <h3>{data.title}</h3>
                         <Link to={`/works/${data.slug}`}>Lire l'étude</Link>
                     </div>
                 ))}

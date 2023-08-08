@@ -8,8 +8,8 @@ export default function StudyCase() {
     const data = studyData.find(data => data.slug === studySlug);
 
     return (
-        <div>
-            <h2>{data.title}</h2>
+        <div className="projects">
+            <h1>{data.title}</h1>
             <p dangerouslySetInnerHTML={{ __html: data.content }} />
         </div>
     )
