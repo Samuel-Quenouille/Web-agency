@@ -1,0 +1,48 @@
+body {
+  background-color: wheat;
+}
+  
+  /*Dark mode */
+body.dark {
+  background-color: black;
+  color: white;
+}
+
+.home-container {
+  text-align: center;
+  margin-top: 100px;
+}
+
+img {
+  margin-top: 100px;
+}
+
+.about-container {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.works-container {
+  text-align: center;
+  margin-top: 100px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #f0f0f0;
+}
+
+.links a {
+  margin-right: 50px;
+  text-decoration: none;
+  color: #333;
+  font-size: 1.2rem;
+}
+
+.form-switch {
+  font-size: 1.2rem;
+  margin-left: 20px;
+}
